@@ -1,11 +1,10 @@
-import Button from './Components/Buttons/Button';
+import Headline1 from './Components/Headlines/Headline1';
 
 const App = () => {
   return (
     <>
-      <h1>Hello World</h1>
-      <Button customClass='btn-blue' />
-      <Button customClass='btn-sustainability' />
+      <Headline1 selectedElement='div'>Hello World</Headline1>
+      <div>HOLIS</div>
     </>
   );
 };

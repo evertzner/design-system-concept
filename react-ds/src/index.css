@@ -1,0 +1,11 @@
+@config '../../library-ds/tailwind.config.js';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  h1 {
+    @apply text-3xl font-bold;
+  }
+} */
