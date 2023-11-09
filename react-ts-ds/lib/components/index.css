@@ -1,4 +1,4 @@
-@config '../../library-ds/tailwind.config.js';
+@config '../../../library-ds/tailwind.config.js';
 
 @tailwind base;
 @tailwind components;

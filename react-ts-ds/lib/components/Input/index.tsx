@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from './styles.module.css';
 
 export function Input(props: React.InputHTMLAttributes<HTMLInputElement>) {
-  return <input className={styles.input} {...props} />;
+  return <input className='p-4 text-white bg-green-400 rounded-2xl' {...props} />;
 }

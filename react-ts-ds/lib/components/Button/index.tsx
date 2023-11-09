@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from './styles.module.css';
 
 export function Button(props: React.ButtonHTMLAttributes<HTMLButtonElement>) {
-  return <button className={styles.button} {...props} />;
+  return <button className='bg-red-400 p-4 text-black' {...props} />;
 }
